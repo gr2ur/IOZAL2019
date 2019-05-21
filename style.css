@@ -1,0 +1,119 @@
+body
+{
+
+    /*background: rgb(5,1,64);
+    background: -moz-linear-gradient(180deg, rgba(5,1,64,1) 5%, rgba(9,66,121,1) 65%, rgba(1,33,46,1) 100%, rgba(0,212,255,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(5,1,64,1) 5%, rgba(9,66,121,1) 65%, rgba(1,33,46,1) 100%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(180deg, rgba(5,1,64,1) 5%, rgba(9,66,121,1) 65%, rgba(1,33,46,1) 100%, rgba(0,212,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#050140",endColorstr="#00d4ff",GradientType=1);
+    */
+    background-image: url("background-min.jpg");
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: white;
+    font-family: 'Eczar', serif;
+}
+
+.container
+{
+
+    background: rgb(63,94,251);
+    background: -moz-radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(19,48,28,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(19,48,28,1) 100%);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(19,48,28,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3f5efb",endColorstr="#13301c",GradientType=1);
+
+    width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#logo
+{
+
+    background: rgb(111,73,90);
+    background: -moz-radial-gradient(circle, rgba(111,73,90,0.6699054621848739) 0%, rgba(10,40,77,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(111,73,90,0.6699054621848739) 0%, rgba(10,40,77,1) 100%);
+    background: radial-gradient(circle, rgba(111,73,90,0.6699054621848739) 0%, rgba(10,40,77,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#6f495a",endColorstr="#0a284d",GradientType=1);
+
+    color: rgb(245, 251, 38);
+    opacity: 0.6;
+    text-align: center;
+    padding: 15px;
+
+    border: none;
+    border-radius: 30px;
+     box-shadow: 0 9px rgb(5,1,64);
+
+}
+#time
+{
+    text-align: right;
+    color: white;
+}
+#menu
+{
+    
+    background: rgb(88,89,92);
+    background: -moz-radial-gradient(circle, rgba(88,89,92,0.711922268907563) 0%, rgba(143,143,143,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(88,89,92,0.711922268907563) 0%, rgba(143,143,143,1) 100%);
+    background: radial-gradient(circle, rgba(88,89,92,0.711922268907563) 0%, rgba(143,143,143,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#58595c",endColorstr="#8f8f8f",GradientType=1);
+    
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    margin-top: 25px;
+    color: white;
+    padding: 15px;
+}
+.menuOption
+{
+    /*float: left;*/
+    display: inline-block;
+    min-width: 50px;
+    height: 25px;
+    font-size: 18px;
+    padding: 15px;
+    opacity: 0.8;
+}
+.menuOption:hover
+{
+    
+    color: red;
+    background-color: black;
+    border-radius: 15px;
+
+}
+#content
+{
+    
+    background: rgb(35,31,99);
+    background: -moz-linear-gradient(180deg, rgba(35,31,99,1) 5%, rgba(52,85,117,1) 65%, rgba(1,33,46,1) 100%, rgba(0,212,255,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(35,31,99,1) 5%, rgba(52,85,117,1) 65%, rgba(1,33,46,1) 100%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(180deg, rgba(35,31,99,1) 5%, rgba(52,85,117,1) 65%, rgba(1,33,46,1) 100%, rgba(0,212,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#231f63",endColorstr="#00d4ff",GradientType=1);
+
+    text-align: center;
+    height: 700px;
+    padding: 50px;
+    border-radius: 15px;
+}
+#footer
+{
+    
+    background: rgb(63,94,251);
+    background: -moz-radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(0,0,4,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(0,0,4,1) 100%);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(0,0,4,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3f5efb",endColorstr="#000004",GradientType=1);
+
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    
+}
