@@ -14,7 +14,7 @@ body
     color: white;
     font-family: 'Eczar', serif;
 }
-
+/* Główny pojemnik */
 .container
 {
 
@@ -29,6 +29,7 @@ body
     margin-right: auto;
     
 }
+/* Logo strony */
 #logo
 {
 
@@ -48,11 +49,13 @@ body
      box-shadow: 0 9px rgb(5,1,64);
 
 }
+/* Ustawienie zegara */
 #time
 {
     text-align: right;
     color: white;
 }
+/* Styl menu */
 #menu
 {
     
@@ -69,6 +72,7 @@ body
     color: white;
     padding: 15px;
 }
+/* Styl opcji menu */
 .menuOption
 {
     /*float: left;*/
@@ -87,6 +91,7 @@ body
     border-radius: 15px;
 
 }
+/* Główny blok strony */
 #content
 {
     
@@ -101,6 +106,7 @@ body
     padding: 50px;
     border-radius: 15px;
 }
+/* Stopka */
 #footer
 {
     
